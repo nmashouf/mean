@@ -1,4 +1,5 @@
 def mean(num_list):
+    """Calculates the mean of a list of numbers"""
     try:
         return sum(num_list)/len(num_list)
     except ZeroDivisionError as detail :
