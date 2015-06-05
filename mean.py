@@ -3,7 +3,7 @@ def mean(num_list):
     try:
         a = return sum(num_list)/len(num_list)
         for i in num_list:
-            if isinstance(a, complex):
+            if isinstance(i, complex):
                 return NotImplemented
         return a
     except ZeroDivisionError as detail :
