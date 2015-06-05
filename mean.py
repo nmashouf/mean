@@ -1,7 +1,7 @@
 def mean(num_list):
     """Calculates the mean of a list of numbers"""
     try:
-        a = return sum(num_list)/len(num_list)
+        a = sum(num_list)/len(num_list)
         for i in num_list:
             if isinstance(i, complex):
                 return NotImplemented
